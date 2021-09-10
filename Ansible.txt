@@ -1,0 +1,29 @@
+
+ssh-keygen -b 4096
+
+For Tower:
+Credentials
+Project
+Inventories
+
+Git-hub:
+Deloy key
+
+
+git clone
+git add 
+git commit 
+git push
+
+
+ansible-vault encrypt ....
+
+53  ssh-keygen -b 4096
+   54  cat .ssh/id_rsa.pub
+   55  git clone git@git.build.ingka.ikea.com:gstorage/ansible.git
+   56  cd ansible
+   57  cp vol.yml jimu.yml
+   58  git add jimu.yml
+   59  gid commit -m "test" jimu.yml
+   60  git commit -m "test" jimu.yml
+   61  git push
